@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">google</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="image.html">Image</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="Advanced.html">Advanced</a>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>
+
+
+
+        <div class="centered">
+
+            <img id="adlogo" src="media/logo.png" alt="logo" width="500">
+        
+            <form action="https://google.com/search">
+                <input class="form-control form-control-lg" type="text" name="as_q" placeholder="All These Words">
+                <input class="form-control form-control-lg" type="text" name="as_epq" placeholder="This Exact Phraase">
+                <input class="form-control form-control-lg" type="text" name="as_oq" placeholder="Any of These Words">
+                <input class="form-control form-control-lg" type="text" name="as_eq" placeholder="None of These Words">
+                <input type="submit" class="btn btn-outline-info col-12" value="Advanced Search">
+            </form>
+        </div>
+
+    </body>
+</html>

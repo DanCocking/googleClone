@@ -1,0 +1,25 @@
+
+.centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    }
+
+#logo {
+    padding-bottom: 20px;
+}
+
+.row {
+    padding: 20px;
+}
+
+.form-control, .col-12 {
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+#adlogo {
+    margin-bottom: 20px;
+}
